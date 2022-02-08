@@ -1,0 +1,20 @@
+[package]
+name = "env_ast"
+version = "1.0.0"
+edition = "2021"
+authors = ["William Venner <william@venner.io>"]
+description = "env! but it outputs tokens instead of a string literal"
+license = "MIT"
+repository = "https://github.com/WilliamVenner/env_ast"
+categories = ["development-tools::ffi", "rust-patterns", "development-tools::build-utils"]
+keywords = ["env", "macro", "proc-macro"]
+
+[lib]
+proc-macro = true
+
+[workspace]
+members = ["env_ast_test"]
+
+[dependencies]
+syn = "1"
+quote = "1"

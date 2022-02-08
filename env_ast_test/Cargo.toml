@@ -1,0 +1,8 @@
+[package]
+name = "env_ast_test"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+env_ast = { path = "../" }
